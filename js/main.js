@@ -1,6 +1,5 @@
 
 window.onload = function(){
-    document.getElementById("LoadingHint").style.visibility="hidden";
     SetProblemRandom();
     resize();
 }
@@ -11,7 +10,7 @@ window.onresize = function(){
 function resize(){
     width = window.screen.width;
     if(width>=1000){
-        document.getElementById("hatsheet").style.width="800px";
-        document.getElementById("hatsheet").style.margin="auto";
+        document.getElementById("sheet").style.width="800px";
+        document.getElementById("sheet").style.margin="auto";
     }
 }
