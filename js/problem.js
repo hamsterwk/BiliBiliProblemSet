@@ -1,11 +1,19 @@
 
 function SetProblemRandom(){
+    var idx=Math.floor(Math.random()*p.length)
+    var problem=p[idx];
+    document.getElementById("hinttitle").innerText=problem.a;
+    document.getElementById("userBox").innerText="问题贡献用户："+problem.b;		
+}  
+
+
+function SetProblemRandomAjax(){
     var problem;
 	$.ajax({
 		type: "GET",//方法类型
         dataType: "jsonp",
         jsonp:"callback",
-		url: "http://81.71.15.106:8080/getQuestion/" ,
+		url: "https://81.71.15.106:8080/getQuestion/" ,
         async : false,
         jsonpCallback: "callback",
 		success: function (result) {
@@ -14,4 +22,5 @@ function SetProblemRandom(){
             document.getElementById("hinttitle").innerText=problem.problem;
             document.getElementById("userBox").innerText="问题贡献用户："+problem.member;		}
     });
+
 }
