@@ -1,0 +1,14 @@
+#All{
+    width: 100%;
+    height: 100%;
+}
+#background{
+    width: auto;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+#Map{
+    height: 100%;
+    width: 100%;
+}

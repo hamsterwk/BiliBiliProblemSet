@@ -1,0 +1,97 @@
+
+@font-face {
+/* font-test*/
+    font-family: katong;
+    src:url('../font/katong.ttf');
+}
+@font-face{
+    font-family:katong-en;
+    src: url('../font/comic.ttf');
+}
+.hatsheet{
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    visibility:visible;
+    position:absolute;
+    border-radius: 50px;
+    background-image: url(../img/hattest.png);
+    /*background-color: #ff9900;*/
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    top:2%;
+    left:2%;
+    z-index:3000;
+    height:900px;
+    width:1600px;
+    font-family: katong-en, Arial, katong;
+}
+
+.hatsheettitle{
+    position: absolute;
+    top: 17%;
+    left: 5.75%;
+    width: 52%;
+    height: auto;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: RGB( 0,102,80);
+    border-width: 5px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#hinttitle{
+    font-size:36px;
+    font-weight: bold;
+}
+
+.sel{
+    cursor: pointer;
+    font-size: 48px;
+    font-weight: bold;
+    width: 53%;
+    border-radius: 48px;
+    border-style: solid;
+    border-color: RGB( 0,102,80);
+    text-align: center;
+    border-width: 5px;
+    background-color: #fefefe;
+}
+
+#selA{
+    position:absolute;
+    left: 5.75%;
+    top:54%;
+}
+
+#selB{
+    position:absolute;
+    left: 5.75%;
+    top:74%;
+}
+#selC{
+    position: absolute;
+    left: 5.75%;
+    top: 85%;
+}
+#userBox{
+    position: absolute;
+    border-radius: 25px;
+    top: 55%;
+    left: 67%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: RGB( 0,102,80);
+    text-align: center;
+    border-width: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
