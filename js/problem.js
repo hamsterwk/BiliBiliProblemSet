@@ -5,5 +5,5 @@ function SetProblemRandom(){
     console.log(idx);
     var problem=problemList[idx];
     document.getElementById("hinttitle").innerText=problem.content;
-    document.getElementById("userBox").innerText="问题贡献用户：\n"+problem.uame;
+    document.getElementById("userBox").innerText="大哥哥大姐姐们不要沉迷B站，\n要多学习提高自己的知识才是正事！\n问题贡献用户："+problem.uame;
 }

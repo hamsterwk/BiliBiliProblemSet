@@ -9,4 +9,9 @@ window.onresize = function(){
 }
 
 function resize(){
+    width = window.screen.width;
+    if(width>=1000){
+        document.getElementById("hatsheet").style.width="800px";
+        document.getElementById("hatsheet").style.margin="auto";
+    }
 }

@@ -13,85 +13,47 @@
     -webkit-box-pack: center;
     justify-content: center;
     display: flex;
-    visibility:visible;
-    position:absolute;
-    border-radius: 50px;
-    background-image: url(../img/hattest.png);
-    /*background-color: #ff9900;*/
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    top:2%;
-    left:2%;
     z-index:3000;
-    height:900px;
-    width:1600px;
-    font-family: katong-en, Arial, katong;
+    height:auto;
+    width:auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: katong-en,Arial,katong;
 }
 
-.hatsheettitle{
-    position: absolute;
-    top: 17%;
-    left: 5.75%;
-    width: 52%;
-    height: auto;
-    font-size: 48px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: RGB( 0,102,80);
-    border-width: 5px;
-    background-color: rgba(255,255,255,0.8);
-}
 
-#hinttitle{
-    font-size:36px;
-    font-weight: bold;
-}
-
-.sel{
-    cursor: pointer;
-    font-size: 48px;
-    font-weight: bold;
-    width: 53%;
+.itemBox{
+    background-color: rgb(224,208,192);
+    width:100%;
+    margin-bottom: 20px;
     border-radius: 48px;
+    border-radius: 25px;
     border-style: solid;
-    border-color: RGB( 0,102,80);
-    text-align: center;
+    border-color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
     border-width: 5px;
-    background-color: #fefefe;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    font-size: 24px;
+    width: 100%;
+}
+#Btn{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left:1%;
+    width:16%;
+    right:0%;
 }
 
-#selA{
-    position:absolute;
-    left: 5.75%;
-    top:54%;
-}
-
-#selB{
-    position:absolute;
-    left: 5.75%;
-    top:74%;
-}
-#selC{
-    position: absolute;
-    left: 5.75%;
-    top: 85%;
+#info{
+    width:65%;
 }
 #userBox{
-    position: absolute;
-    border-radius: 25px;
-    top: 55%;
-    left: 67%;
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: RGB( 0,102,80);
+    position: relative;
     text-align: center;
-    border-width: 5px;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
 }
