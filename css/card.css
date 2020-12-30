@@ -8,7 +8,7 @@
     font-family:katong-en;
     src: url('../font/comic.ttf');
 }
-.hatsheet{
+.sheet{
     flex-wrap: wrap;
     -webkit-box-pack: center;
     justify-content: center;
